@@ -33,16 +33,10 @@
         <nav class="navbar">
             <ul class="nav nav-pills mx-auto d-sm-flex d-block flex-sm-nowrap">
                 <li class="nav-item">
-                    <a class="nav-link" href="file:///Users/teacher/Desktop/CodingDojo/profile_website/index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Me</a>
                 </li>
             </ul>
         </nav>
@@ -56,8 +50,7 @@
                         <p>A Software developer with over 10 years in international education. An agile learner passionate about technology. Eager to leverage global professional experiences, creativity, and burgeoning software development skills to create solutions, products, and services that have a meaningful impact on end users</p>
                     </div>
                     <div class="col-md-3">
-                        {% load static %}
-                        <img src="{% static 'css/images/Profile_pic.png' %}">
+                        <img src="{% static 'profile_app/images/Profile_pic.png'%}">
                     </div>
             </div>
         </div>
@@ -67,7 +60,7 @@
                 <ul class="list-group list-group-flush mt-2">
                     <li class="list-group-item">
                         <div class="row">
-                            <div class="col col-md-1"><img src="images/CDLogo.jpg" width="60" height="60">
+                            <div class="col col-md-1"><img src="{% static 'profile_app/images/CDLogo.jpg'%}" width="60" height="60">
                             </div>
                             <div class="col col-md-9"><Strong>Coding Dojo</Strong>
                                 Python Full-Stack Web Development - HTML, JavaScript, Python 
@@ -77,7 +70,7 @@
                         </li>
                     <li class="list-group-item">
                         <div class="row">
-                            <div class="col col-md-1"><img src="images/ACELogo.jpg" width="60" height="60">
+                            <div class="col col-md-1"><img src="{% static 'profile_app/images/ACELogo.jpg'%}" width="60" height="60">
                             </div>
                             <div class="col col-md-9"><Strong>American College of Education</Strong>
                                 Masters of Educational Technology - Educational/Instrutional Technology - 4.0 
@@ -87,7 +80,7 @@
                         </li>
                     <li class="list-group-item">
                         <div class="row">
-                            <div class="col col-md-1"><img src="images/HoughtonLogo.jpg" width="60" height="60">
+                            <div class="col col-md-1"><img src="{% static 'profile_app/images/HoughtonLogo.jpg'%}" width="60" height="60">
                             </div>
                             <div class="col col-md-9"><Strong>Houghton College</Strong>
                                 Bachelor of Arts - Intercultural STUDIES
@@ -106,7 +99,7 @@
                 <ul class="list-group list-group-flush mt-2">
                     <li class="list-group-item">
                         <div class="row">
-                            <div class="col col-md-1"><img src="images/BLILogo.jpg" width="60" height="60">
+                            <div class="col col-md-1"><img src="{% static 'profile_app/images/BLILogo.jpg'%}" width="60" height="60">
                             </div>
                             <div class="col col-md-9"><Strong>TEFL Certification</Strong>
                                 The Boston Language Institute
@@ -116,7 +109,7 @@
                         </li>
                     <li class="list-group-item">
                         <div class="row">
-                            <div class="col col-md-1"><img src="images/CFLogo.jpg" width="60" height="60">
+                            <div class="col col-md-1"><img src="{% static 'profile_app/images/CFLogo.jpg'%}" width="60" height="60">
                             </div>
                             <div class="col col-md-9"><Strong>CrossFit Level 1 Trainer</Strong>
                                 CrossFit Inc.
@@ -126,7 +119,7 @@
                         </li>
                     <li class="list-group-item">
                         <div class="row">
-                            <div class="col col-md-1"><img src="images/GoogLogo.jpg" width="60" height="60">
+                            <div class="col col-md-1"><img src="{% static 'profile_app/images/GoogLogo.jpg'%}" width="60" height="60">
                             </div>
                             <div class="col col-md-9"><Strong>Google Certified Educator Level 1</Strong>
                                 Google
